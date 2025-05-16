@@ -32,9 +32,37 @@ def continue_or_quit():
 
 #Main program
 
+#Creating manu
+welcome="Welcome to Result Checker"
+print(welcome.center(77))
+
+#Give instructions
+print('''\nInstructions
+    -Type student or staff when asked.
+
+        student: check one result
+        staff: enter many results
+
+    -Enter numbers when asked for:
+
+        Pass credits
+        Defer credits
+        Fail credits
+
+    ⚠️ Only use: 0, 20, 40, 60, 80, 100, 120
+    ✅ All three must add up to 120.
+
+    -If you chose staff type y to add another, type q to stop and see the chart
+
+    -A graph will pop up. You will see all results.
+
+    -Click inside it to close.
+
+    -Also all the results are also saved in a file named Part 3.txt''')
+
 
 #Ask if the user is a student or staff member
-user=input('''
+user=input('''\n
 Are you a student or a staff member
 
 Enter 'student' if you are a student                                      
