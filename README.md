@@ -25,3 +25,4 @@ The **Result Checker** is a Python console application designed to process and e
    git clone https://github.com/PasinduRavisara/Result-Checker.git
    cd Result-Checker
 2. Run the Application
+      - python W2052750.py
